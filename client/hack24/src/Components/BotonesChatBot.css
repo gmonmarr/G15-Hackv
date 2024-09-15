@@ -1,0 +1,28 @@
+.buttons-container {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  background: black; /* Fondo negro */
+  border-bottom: 1px solid #333333; /* Borde inferior oscuro */
+}
+
+.button {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  cursor: pointer;
+  color: white; /* Texto blanco */
+}
+
+.button i {
+  font-size: 50px;
+  color: #ff69b4; /* Íconos en color rosa */
+}
+
+.button p {
+  margin-top: 10px;
+  font-size: 14px;
+  color: white; /* Texto blanco */
+}
